@@ -2,7 +2,7 @@ import Classes.Baraja;
 
 /**
  * @author Antonio Ruiz Ruiz
- * @version 12.12.2022
+ * @version 15.12.2022
  * @since JDK 19.0
  */
 public class Main {
@@ -10,6 +10,7 @@ public class Main {
         //creacion de objetos
         Baraja b= new Baraja();
         //uso de metodos de la clase Classes.Baraja
+        b.crearBaraja();
         b.mostrarBaraja();
     }
 
